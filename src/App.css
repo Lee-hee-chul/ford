@@ -5,8 +5,9 @@
 }
 
 .login-button{
-    display: flex;
-    justify-content: flex-end;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu-list{
@@ -14,7 +15,7 @@
     list-style: none;
 }
 
-.menu-list > li{
+.menu-list li{
     padding: 20px;
 }
 
@@ -22,9 +23,25 @@
     display: flex;
 }
 
-.right-menu{
+.logo > img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-menu{
     display: flex;
     color: dodgerblue;
     font-size: 17px;
     font-weight: 700;
+}
+
+.right-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-menu > div{
+    margin-right: 20px;
 }

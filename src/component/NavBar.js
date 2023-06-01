@@ -8,16 +8,18 @@ const NavBar = () => {
     <div>
 
       <div className='header-menu'>
-        <div>
-            <img src='https://www.ford.co.kr/content/dam/Ford/website-assets/ap/kr/home/New%20Logo.png' />
-          </div>
+        <div className='logo'>
+          <img src='https://www.ford.co.kr/content/dam/Ford/website-assets/ap/kr/home/New%20Logo.png' />
+        </div>
+
+        <div className='mid-menu'>
+          <ul className='menu-list'>
+            {menuList.map((menu) => (
+              <li>{menu}</li>
+            ))}
+          </ul>
 
           <div className='right-menu'>
-            <ul className='menu-list'>
-              {menuList.map((menu) => (
-                <li>{menu}</li>
-              ))}
-            </ul>
             <div>전시장 및 서비스센터</div>
             <div>시승 신청</div>
             <div className='login-button'>
@@ -25,9 +27,8 @@ const NavBar = () => {
               <div>로그인</div>
             </div>
           </div>
+        </div>
       </div>
-        
-        
     </div>
   )
 }
