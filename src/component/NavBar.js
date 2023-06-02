@@ -18,7 +18,6 @@ const NavBar = () => {
               <li>{menu}</li>
             ))}
           </ul>
-
           <div className='right-menu'>
             <div>전시장 및 서비스센터</div>
             <div>시승 신청</div>
