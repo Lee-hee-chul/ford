@@ -4,6 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ul{
+            list-style: none;
+        }
+
+        .mask{
+            width: 1281px;
+            height: 500px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .img_wrap{
+            width: 7686px;
+            height: 100%;
+            display: flex;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .img_wrap > img{
+            width: 1281px;
+            height: 100%;
+        }
+
+        .btn{
+            width: 10px;
+            height: 10px;
+        }
+        
+    </style>
 </head>
 <body>
     
@@ -28,5 +66,16 @@
         </ul>
     </div>
     
+    <script>
+        $(document).ready(function(){
+
+            $('li').each(function(index){
+                $(this).attr({
+                    "data-index":index
+                })
+            });
+
+        });//end
+    </script>
 </body>
 </html>
