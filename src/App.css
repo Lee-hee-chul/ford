@@ -79,3 +79,53 @@
     display: flex;
     justify-content: center;
 }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+.mask{
+    width: 1281px;
+    height: 500px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    position: relative;
+}
+
+.img_wrap{
+    width: 7686px;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img_wrap > img{
+    width: 1281px;
+    height: 100%;
+}
+
+.btn{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.btn > li{
+    width: 10%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 50%;
+}
