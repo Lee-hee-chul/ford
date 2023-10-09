@@ -132,3 +132,14 @@ ul{
     background-color: #fff;
     border-radius: 50%;
 }
+
+
+.mid{
+    width: 100%;
+}
+
+.mid-btn{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
