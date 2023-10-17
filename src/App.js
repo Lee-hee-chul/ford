@@ -5,13 +5,15 @@ import Aboutpage from './component/Aboutpage';
 import {Routes, Route} from 'react-router-dom';
 import NavBar from './component/NavBar';
 import Video from './component/Video';
-import Mid from './component/Mid';
+import Btn from './component/Btn.js';
+import Mid from './component/Mid.js';
 
 function App() {
   return (
     <div>
       <NavBar />
       <Video />
+      <Btn />
       <Mid />
       <Routes>
         <Route path="/" element={<Homepage />} />
