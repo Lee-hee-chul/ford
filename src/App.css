@@ -173,12 +173,38 @@ ul{
     color: #000;
 }
 
+.mid-wrap{
+    position: relative;
+}
 
 .mid-img{
-    width: 100%;
-}
-
-.mid-img > img{
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
 }
+
+.mid-img img{
+    width: 1281px;
+    margin-left: 115px;
+}
+
+.mid-text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    color: #fff;
+}
+
+.text-top{
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.text-center{
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 5px;
+    margin: 0 0 0 30px;
+}
+
