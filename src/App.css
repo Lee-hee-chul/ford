@@ -175,6 +175,7 @@ ul{
 
 .mid-wrap{
     position: relative;
+    width: 100%;
 }
 
 .mid-img{
@@ -199,6 +200,7 @@ ul{
     font-size: 45px;
     font-weight: 300;
     margin-bottom: 5px;
+    margin: 0 auto;
 }
 
 .text-center{
@@ -206,5 +208,14 @@ ul{
     font-weight: 100;
     margin-bottom: 5px;
     margin: 0 0 0 30px;
+}
+
+.text-bottom{
+    font-size: 19px;
+    font-weight: 200;
+    margin-left: 70px;
+    background-color: #2d96cd;
+    padding: 10px 60px;
+    margin-top: 30px;
 }
 

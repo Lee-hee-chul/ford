@@ -10,11 +10,14 @@ const Mid = () => {
       </div>
 
       <div className='mid-text'>
+        
         <h2 className='text-top'>FORD EXLORER</h2>
         <p className='text-center'>지금 바로 만나보세요</p>
         <div className='text-bottom'>
           자세히 보기
         </div>
+        
+        
       </div>
 
     </div>
