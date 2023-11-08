@@ -207,15 +207,21 @@ ul{
     font-size: 25px;
     font-weight: 100;
     margin-bottom: 5px;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 40px;
 }
 
 .text-bottom{
     font-size: 19px;
-    font-weight: 2040;
-    margin-left: 740px;
+    font-weight: 200;
+    margin-left: 20px;
     background-color: #2d96cd;
-    padding: 10px 60px;
+    padding: 10px 90px;
     margin-top: 30px;
+    cursor: pointer;
+}
+
+.text-bottom:hover{
+    background-color: #fff;
+    color: #000;
 }
 
