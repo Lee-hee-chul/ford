@@ -225,3 +225,19 @@ ul{
     color: #000;
 }
 
+.text{
+    width: 990px;
+    height: 320px;
+    margin-left: 300px;
+}
+
+.txt{
+    padding: 59px;
+}
+
+.txt > h2{
+    font-size: 34px;
+    font-weight: 200;
+    color: #626466;
+}
+

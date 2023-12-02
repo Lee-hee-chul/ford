@@ -13,7 +13,13 @@ const Mid = () => {
               <p className='text-center'>지금 바로 만나보세요</p>
               <div className='text-bottom'>자세히 보기</div>
             </div>
-            
+        </div>
+
+        <div className='text'>
+          <div className='txt'>
+            <h2>What's happening at Ford</h2>
+            <h2>포드에서 전하는 최신 정보와 특별한 이야기를 만나보세요</h2>
+          </div>
         </div>
     </div>
   )
