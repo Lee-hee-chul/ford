@@ -20,6 +20,16 @@ const Mid = () => {
             <h2>What's happening at Ford</h2>
             <h2>포드에서 전하는 최신 정보와 특별한 이야기를 만나보세요</h2>
           </div>
+
+          <div className='ecoboost'>
+            <div className='ecoboost-img'>
+              <img src='https://www.ford.co.kr/content/ford/kr/ko_kr/home/jcr:content/par/brandgallery_1292910928/image2/image.imgs.full.high.jpg/1570435721949.jpg' />
+            </div>
+            
+            <div className='ecoboost-text'>
+              <p>ECOBOOST</p>
+            </div>
+          </div>
         </div>
     </div>
   )

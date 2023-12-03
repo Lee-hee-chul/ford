@@ -229,6 +229,9 @@ ul{
     width: 990px;
     height: 320px;
     margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .txt{
@@ -236,8 +239,17 @@ ul{
 }
 
 .txt > h2{
-    font-size: 34px;
+    font-size: 31px;
     font-weight: 200;
     color: #626466;
+}
+
+.ecoboost{
+    margin-right: -310px;
+    position: relative;
+}
+
+.ecoboost-text{
+    position: absolute;
 }
 
