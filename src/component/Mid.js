@@ -27,6 +27,7 @@ const Mid = () => {
             </div>
             
             <div className='ecoboost-text'>
+              <div className='ecoboost-background'></div>
               <p>ECOBOOST</p>
             </div>
           </div>
