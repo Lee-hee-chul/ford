@@ -31,7 +31,19 @@ const Mid = () => {
               <p>ECOBOOST</p>
             </div>
           </div>
-        </div>
+
+          <div className='ranger-gallery'>
+            <a href=''>
+              <img src='https://www.ford.co.kr/content/ford/kr/ko_kr/home/jcr:content/par/brandgallery_1292910928/image1/image.imgs.full.high.jpg/1674050558173.jpg' />
+              <div className='ranger-gallery-background'></div>
+              <div className='ranger-gallery-text'>
+                
+                <p>RANGER Gallery</p>
+              </div>
+            </a>
+          </div>
+
+         </div>
     </div>
   )
 }
