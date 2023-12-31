@@ -35,9 +35,8 @@ const Mid = () => {
           <div className='ranger-gallery'>
             <a href=''>
               <img src='https://www.ford.co.kr/content/ford/kr/ko_kr/home/jcr:content/par/brandgallery_1292910928/image1/image.imgs.full.high.jpg/1674050558173.jpg' />
-              <div className='ranger-gallery-background'></div>
               <div className='ranger-gallery-text'>
-                
+                <div className='ranger-gallery-background'></div>
                 <p>RANGER Gallery</p>
               </div>
             </a>
