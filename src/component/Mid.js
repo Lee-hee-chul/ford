@@ -44,10 +44,14 @@ const Mid = () => {
           </div>
 
 
-          <div>
+          <div className='mustang'>
             <a href=''>
               <img src='https://www.ford.co.kr/content/ford/kr/ko_kr/home/jcr:content/par/brandgallery_1292910928/image3/image.imgs.full.high.jpg/1702286712550.jpg' />
             </a>
+            <div className='mustang-text'>
+              <div className='mustang-background'></div>
+              <p>MUSTANG</p>
+            </div>
           </div>
 
          </div>

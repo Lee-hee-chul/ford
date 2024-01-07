@@ -245,7 +245,8 @@ ul{
 }
 
 .ecoboost{
-    margin-right: -310px;
+    margin-top: -4px;
+    margin-right: -384px;
     position: relative;
     cursor: pointer;
 }
@@ -282,7 +283,7 @@ ul{
 
 .ranger-gallery{
     position: absolute;
-    margin-top: 980px;
+    margin-top: 956px;
     margin-right: 260px;
 }
 
@@ -310,6 +311,21 @@ ul{
     position: absolute;
     color: #fff;
     font-size: 17px;
+}
+
+.mustang{
+    position: relative;
+}
+
+.mustang > a{
+    position: absolute;
+    top: 0;
+}
+
+.mustang img{
+    width: 350px;
+    margin-top: 166px;
+    margin-left: -177px;
 }
 
 
