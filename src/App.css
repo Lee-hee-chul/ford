@@ -228,17 +228,17 @@ ul{
 .text{
     width: 990px;
     height: 320px;
-    margin-left: 263px;
+    margin-left: 260px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .txt{
-    padding: 115px 59px;
+    padding: 119px 64px;
     background-color: aqua;
     margin-left: -30px;
-    margin-top: -15px;
+    margin-top: -9px;
 }
 
 .txt > h2{
@@ -249,7 +249,7 @@ ul{
 
 .ecoboost{
     margin-top: -4px;
-    margin-right: -404px;
+    margin-right: -410px;
     position: relative;
     cursor: pointer;
 }
